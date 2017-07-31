@@ -1,0 +1,55 @@
+
+span{
+	color: #023968
+}
+.top30{
+	margin: 30px 0
+}
+h4{
+	margin-bottom: 30px;
+}
+@media (min-width: 991px) and (max-width: 1200px){
+	.article{
+		margin: 5% 0 15%!important;
+	}
+}
+@media (max-width: 990px){
+	.article{
+		margin: 5% 0 7%!important;
+	}
+}
+.article{
+	font-size: 14px;
+	line-height: 30px;
+	margin: 11% 0 23%
+}
+.right a{
+	display: block;
+	font-size: 12px;
+	color: #bababa;
+}
+label{
+	margin-left: 5%;
+}
+select{
+	border: none;
+}
+.top45{
+	margin-top: 45px;
+}
+.control{
+	margin: 50px 0;
+}
+.pagination li a{
+	margin: 0 5px;
+	transition: 0.3s;
+}
+.pagination li:hover a{
+	transition: 0.3s;
+	color: #fff;
+	background: #1a4c76;
+}
+.More{
+	display: block;
+	color: #ccc;
+}

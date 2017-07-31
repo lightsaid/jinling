@@ -1,0 +1,172 @@
+@media (max-width:480px){
+  span{
+    font-size: 14px;
+  }
+}
+header{
+	position: fixed;
+	width: 100%;
+	background-color: rgba(255,255,255,.4);
+	z-index: 100;
+}
+.touming{
+	margin: 0 auto;
+}
+
+.nav li a:focus{
+    background: none;
+}
+
+.nav_cont li{
+    float: left;
+}
+
+.nav_cont li a{
+    font-size: 14px;
+    line-height: 28px;
+    color: #23b35c;
+}
+
+.nav_cont li:last-child a{
+    color: #9d9d9d;
+}
+
+.nav_cont li a:hover{
+    color: #000 !important;
+}
+.navbar{
+    margin-bottom: 0;
+}
+.navbar-nav li a{
+    font-size: 14px;
+    line-height: 10px;
+    color: #010101;
+}
+.navbar_button{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+@media (max-width: 768px){
+	.nav_right{
+		width: 100%;
+	}
+	.navbar-collapse{
+		margin-top: 45px
+	}
+}
+.nav_right{
+    text-align: center;
+    z-index: 10;
+}
+.nav_right_cont li a:hover{
+    color: #59a3ca !important;
+}
+
+.navbar-inverse{
+    border: none;
+}
+
+.nav_btn:hover{
+    background: transparent;
+}
+.navbar-toggle .icon-bar{
+    width: 12px;
+    height: 1px;
+}
+@media (max-width: 1200px){
+     .col-md-7 {
+        margin-top: 10px;
+    }
+}
+@media (min-width: 1200px){
+    .col-md-7 {
+        margin-top: 20px;
+    }
+}
+@media (min-width: 768px){
+    .navbar-nav {
+        float: right;
+    }
+}
+@media (max-width: 670px){
+  .navbar-toggle {
+    margin-top: 12px;
+  }
+}
+.daohang{
+	margin-top: 10px;
+}
+
+footer{
+    background: #313131;
+    padding: 30px 0 45px;
+}
+footer p{
+    color: #f6f6f6;
+}
+dt{
+    color: #f6f6f6;
+    line-height: 30px;
+}
+dd{
+    color: #f6f6f6;
+}
+i{
+    font-size: 19px!important;
+}
+.bq{
+    background: #242323;
+    padding:10px 0;
+}
+.bq p{
+    margin:0;
+    color: #fff;
+}
+.banner-control{
+    font-size: 35px!important;
+    color: rgba(255,255,255,.2);
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/iconfont.woff') format('woff'),
+  url('../font/iconfont.ttf') format('truetype'),
+  url('../font/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.weibo:hover{
+    color: red;
+    transition: 0.3s
+}
+.qq:hover{
+    color: #1E90FF;
+    transition: 0.3s
+}
+.tecent:hover{
+    color: #1E90FF;
+    transition: 0.3s
+}
+.wechat:hover{
+    color: #00CD00;
+    transition: 0.3s
+}
+.nav_right_cont li a{
+  transition: 0.3s
+}
+.nav_right_cont li a:hover {
+    transition: 0.3s;
+}
+.active a{
+  color: #59a3ca !important;
+  text-decoration: underline;
+}
